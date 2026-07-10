@@ -8,4 +8,6 @@ $(call inherit-product, vendor/oneplus/camera-sm8850-common/camera-sm8850-common
 $(call inherit-product, proprietary/vendor/oneplus/camera-macanc/camera-macanc-vendor.mk)
 
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.build.version.ota=PLR110_11.A.62_0620_202606152334
+    ro.build.version.ota=PLR110_11.A.62_0620_202606152334 \
+    ro.oplus.pipeline.region=CN \
+    ro.oplus.product.series=OnePlus_Ace_Series
